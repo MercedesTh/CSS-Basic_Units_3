@@ -1,0 +1,50 @@
+Aufgabenstellung
+
+In dieser Übung werden wir alle Maße und Maßeinheiten verwenden
+
+Verwende für article, p, und h2 die Einheit em und die Font Helvetica
+
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    background: url(../img/anastasia-taioglou-CTivHyiTbFw-unsplash.jpg);
+    background-position: center;
+    background-size: 100vw 100vh no-repeat;
+    font-size: 10px;
+    margin: 0px;
+}
+
+h1{
+    font-size: 2rem;
+    background: orange;
+    line-height: 60px;
+    text-align: center;
+    margin: 30px 0px;
+    opacity: 0.5;
+}
+
+article{
+    height: 35em;
+    background:chocolate;
+    opacity: 0.75;
+    padding: 30px 30px 120px 30px;
+    margin: 40px 40px;
+}
+
+p{
+    font-size: 1.5em;
+    font-family: Helvetica, sans-serif;
+    text-align: center;
+    margin: 30px 30px;
+}
+
+h2{
+    font-size: 2em;
+    font-family: Helvetica, sans-serif;
+    text-align: center;
+    margin: 50px 0px;
+}
